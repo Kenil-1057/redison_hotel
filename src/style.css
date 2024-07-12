@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/Aeonik-Light.woff2") format("woff2");
+    font-weight:300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/Aeonik-Regular.woff2") format("woff2");
+    font-weight:normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/Aeonik-Medium.woff2") format("woff2");
+    font-weight:500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/Aeonik-Bold.woff2") format("woff2");
+    font-weight:700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/Aeonik-Black.woff2") format("woff2");
+    font-weight:900;
+    font-style: normal;
+}
+
+img{
+    max-width: 100%;
+}
+
+
